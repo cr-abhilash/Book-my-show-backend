@@ -1,9 +1,9 @@
 module.exports = {
-  HOST: "localhost",
-  PORT: "3000",
-  USER: "root",
-  PASSWORD: "Oiyishi@123",
-  DB: "testdb",
+  HOST: "us-cdbr-east-02.cleardb.com",
+  //PORT: "3000",
+  USER: "bff46227a49d5b",
+  PASSWORD: "6e309e95",
+  DB: "heroku_34d6329da103fbb",
   dialect: "mysql",
   pool: {
     max: 7,
