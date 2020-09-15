@@ -1,12 +1,14 @@
 const express = require("express");
-// const mysql = require("mysql");
+
 const bodyParser = require("body-parser");
 const cors = require("cors");
-// const createDatabasesTable = require("./app/config/database.js");
+
+// app.use(cors()) 
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  // origin: "http://localhost:8081"
+  "Access-Control-Allow-Origin": "*"
 };
 
 // createDatabasesTable();
